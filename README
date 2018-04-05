@@ -1,14 +1,3 @@
-Kernel 4.16 (currently RC and not modified/tested on BPI-R2)
-
-needs additional bison and flex-package
-
-  sudo apt-get install bison flex
-
-  ./build.sh importconfig
-  ./build.sh config
-  ./build.sh
-
-
 Linux kernel
 ============
 

@@ -10,19 +10,9 @@ drivers/misc/mediatek/connectivity/common/conn_soc/linux/pub/osal.c:588:7: error
        ^
 cc1: all warnings being treated as errors
 make[8]: *** [drivers/misc/mediatek/connectivity/common/conn_soc/linux/pub/osal.o] Error 1
-make[8]: *** Waiting for unfinished jobs....
-drivers/misc/mediatek/connectivity/wlan/gen2/os/linux/gl_init.c: In function 'createWirelessDevice':
-drivers/misc/mediatek/connectivity/wlan/gen2/os/linux/gl_init.c:1619:6: error: 'WIPHY_FLAG_SUPPORTS_SCHED_SCAN' undeclared (first use in this function)
-    | WIPHY_FLAG_SUPPORTS_SCHED_SCAN;
-      ^
-drivers/misc/mediatek/connectivity/wlan/gen2/os/linux/gl_init.c:1619:6: note: each undeclared identifier is reported only once for each function it appears in
-make[6]: *** [drivers/misc/mediatek/connectivity/wlan/gen2/os/linux/gl_init.o] Error 1
-make[5]: *** [drivers/misc/mediatek/connectivity/wlan/gen2] Error 2
-make[4]: *** [drivers/misc/mediatek/connectivity/wlan] Error 2
-make[4]: *** Waiting for unfinished jobs....
 make[7]: *** [drivers/misc/mediatek/connectivity/common/conn_soc/linux/pub] Error 2
-make[7]: *** Waiting for unfinished jobs....
 make[6]: *** [drivers/misc/mediatek/connectivity/common/conn_soc/linux] Error 2
+make[6]: *** Waiting for unfinished jobs....
 make[5]: *** [drivers/misc/mediatek/connectivity/common/conn_soc] Error 2
 make[4]: *** [drivers/misc/mediatek/connectivity/common] Error 2
 make[3]: *** [drivers/misc/mediatek/connectivity] Error 2
